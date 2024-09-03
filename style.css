@@ -1,0 +1,24 @@
+/* add any CSS styles you want here */
+#board-container {
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 20px;
+  height: 20px;
+  border: 1px solid sliver;
+}
+
+td.dead {
+  background-color: white;
+}
+
+td.alive {
+  background-color: steelblue;
+}
+
+
